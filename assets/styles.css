@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=fallback");
+
+.ios .iosOnly,
+.android .androidOnly,
+.twitter .twitterOnly,
+.instagram .instagramOnly,
+.tiktok .tiktokOnly,
+.snapchat .snapchatOnly {
+  display: unset;
+}
+
+body {
+  background-color: white;
+}
+
+#detailsContainer,
+#nameScreen,
+#nameScreen label,
+#nameScreen input {
+  font-family: "Assistant";
+}
+
+#introScreenDesktop h1 {
+  font-family: "Assistant";
+  font-size: 2rem;
+  line-height: 2.3rem;
+  padding-bottom: 6px;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  #playButton img {
+    clip-path: circle(31.5px at center);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+#introScreen #introTop {
+  background: linear-gradient(
+    rgba(89, 90, 90, 0.9) 0%,
+    rgba(89, 90, 90, 0.3) 50%,
+    rgba(89, 90, 90, 0) 100%
+  );
+}
+
+#introScreen #introTitle {
+  color: white;
+  font-family: "Assistant";
+  font-weight: 700;
+  margin: 1rem 1.5rem 0 1.5rem;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  text-shadow: 1px 1px 3px #00000077;
+}
+
+#introScreen #introTitle p {
+  margin: 1.5rem 0 0 0;
+}
+
+#introScreen #introBottom {
+  background: linear-gradient(
+    transparent,
+    rgba(89, 90, 90, 0.2) 50%,
+    rgba(89, 90, 90, 0.9) 80%
+  );
+}
+
+#introScreen #recordButton {
+  padding: 10px 18px;
+}
+
+#introScreen #introTerms {
+  width: 90%;
+}
+
+#recordButton {
+  font-family: "Assistant";
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+#uploadLink {
+  color: white;
+  font-family: "Assistant";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#uploadLink span {
+  color: white;
+  font-family: "Assistant";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#introTerms {
+  text-align: center;
+  font-family: "Assistant";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 90%;
+  margin: 18px auto 6px auto;
+}
+
+#introTerms a {
+  color: white;
+}
+
+#buttonsContainer button {
+  font-family: "Assistant";
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+#buttonsContainer button.buttonSkip {
+  background-color: transparent;
+  color: #acadad;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+#nameScreen h1 {
+  font-family: "Assistant";
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding-bottom: 0;
+}
+
+#nameScreen .formInput {
+  font-family: "Assistant";
+}
+
+#nameScreen .formInput:focus {
+  outline: none;
+}
+
+#nameScreen label {
+  font-family: "Assistant";
+  color: #595a5a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#nameScreen p {
+  font-family: "Assistant";
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#nameScreen p b {
+  letter-spacing: 0.05rem;
+  -webkit-text-stroke: 0.65px black;
+}
+
+#successScreen {
+  background-color: white;
+}
+
+#successScreen p {
+  color: black;
+  text-align: center;
+  font-family: "Assistant";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+  margin: 18px auto 24px auto;
+}
+
+#successScreen h1 {
+  font-family: "Assistant";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#successScreen a {
+  color: #595a5a;
+  text-decoration: underline;
+}
+
+/* background image animations
+
+n=5 images
+a=2 presentation time
+b=1 transition time
+t=15 total time
+delay=3 stagger time
+
+keyframe percentages
+
+0%
+a/t*100%
+(a+b)/t*100% = 1/n*100%
+100%-(b/t*100%)
+100%
+
+*/
+
+@keyframes slideshow {
+  0% {
+    opacity: 1;
+  }
+  13.33% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  93.33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
