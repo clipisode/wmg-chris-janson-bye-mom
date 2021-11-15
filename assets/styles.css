@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=fallback"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=fallback"); */
 
 .ios .iosOnly,
 .android .androidOnly,
@@ -7,4 +7,28 @@
 .tiktok .tiktokOnly,
 .snapchat .snapchatOnly {
   display: unset;
+}
+
+#successScreen {
+  background-color: black;
+}
+
+#successScreen p {
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+  margin: 18px auto 24px auto;
+}
+
+#successScreen h1 {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
 }
