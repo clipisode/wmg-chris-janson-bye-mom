@@ -16,12 +16,10 @@
 #successScreen p {
   font-family: Montserrat;
   color: white;
-  text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   width: 80%;
-  margin: 18px auto 24px auto;
 }
 
 #successScreen h1 {
