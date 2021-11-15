@@ -60,8 +60,8 @@ export const siteData: any = {
   successScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME, URL_TAG <- needs /success?tag=FOO
     markup: `<div>
-      <h1 class="my-4 mx-3 text-center">Great work</h1>
-      <p class="mb-3 mx-3 text-center">We got your video. Thanks!</p>
+      <h1 class="mt-3 mb-2 mx-3 text-center">Great work</h1>
+      <p class="mt-0 mb-3 mx-3 text-center">We got your video. Thanks!</p>
     </div>
     <iframe src="https://chrisjanson.lnk.to/byemom?ref=https%3A//www.chrisjanson.com/" class="flex flex-grow" />`,
   },
