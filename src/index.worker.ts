@@ -14,7 +14,7 @@ export const siteData: any = {
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
     introScreenHeader: `
-      <h2 id="introHostName">"Bye Mom" Stories</h2>
+      <h2 id="introHostName">What's your "Bye Mom" story?</h2>
       <h1 id="introTitle">Send me a video</h1>
       `,
     recordButtonLabel: "Record a video now",
