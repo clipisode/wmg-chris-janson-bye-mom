@@ -36,7 +36,7 @@ export const siteData: any = {
         <div class="flex flex-col items-center justify-between text-center">
           <div class="m-2">
             <a href="https://www.chrisjanson.com/">
-              <img src="THEME_FILE_ROOT/icon.png" class="h-12 rounded-full" />
+              <img src="THEME_FILE_ROOT/cj-logo.png" class="h-12" />
             </a>
           </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send me a video and tell me your "Bye Mom" story.</h1>
@@ -53,7 +53,7 @@ export const siteData: any = {
     saveButtonLabel: "Save my video",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="h-16 rounded-full" />
+      <img src="THEME_FILE_ROOT/cj-logo.png" class="h-12" />
       </div>
     `,
   },
